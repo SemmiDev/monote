@@ -75,6 +75,7 @@ export function App() {
               </ProtectedRoute>
             }
           />
+          <Route path='*' element={<p>Page not found hehe</p>} />
         </Routes>
       </main>
     </div>
